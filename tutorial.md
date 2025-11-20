@@ -5,8 +5,6 @@ Ouvre la catégorie **Sprites** et fais glisser le bloc
 **définir [mySprite] à sprite [ ] de type [Player]**  
 jusqu’à la fin du bloc **au démarrage** déjà présent dans l’espace de travail.
 
-## Step 2
-
 ```blocks
 let mySprite = sprites.create(img`
     . . . . .
@@ -14,3 +12,4 @@ let mySprite = sprites.create(img`
     . . . . .
     . . . . .
 `, SpriteKind.Player)
+
